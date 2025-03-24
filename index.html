@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>BlueCoffee</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css" media="screen and (max-width:768px)">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body class="drawer drawer--right">
+    <header>
+    <h1>BlueCoffee</h1>
+      <div class="header-container">
+        <button type="button" class="drawer-toggle drawer-hamburger">
+          <span class="sr-only">toggle navigation</span>
+          <span class="drawer-hamburger-icon"></span>
+        </button>
+         <nav class="drawer-nav">
+           <ul class="drawer-menu">
+             <li><a class="drawer-menu-item" href="#about">Home</a></li>
+             <li><a class="drawer-menu-item" href="#menu">Menu</a></li>
+             <li><a class="drawer-menu-item" href="#info">Info</a></li>
+             <li><a class="drawer-menu-item" href="#contact">Contact</a></li>
+           </ul>
+          </nav>
+      </div>    
+    </header>
+    <main>
+      <section class="fv">
+        <figure>
+          <img src="images/店内イメージ.jpg" alt="">
+        </figure>
+      </section>  
+      <section id="about" class="about">
+            <h2>BlueCoffeeとは？</h2>
+              <p>青いマグカップが目印。新潟市で40年続く老舗珈琲ショップが<br>
+                若い人にも幸せを届けたいと2019年にOPENしました。</p>     
+        </section>
+        <section id="menu" class="menu">
+          <div class="items">
+            <div class="item01">
+            <img src="images/ブルーマグ.jpg" alt="">
+            </div>
+            <div class="item02">
+              <h2>Menu</h2>
+               <ul>
+                <li>ブレンド珈琲  ￥420+税</li>
+                <li>カフェラテ  ￥480+税</li>
+                <li>カフェモカ  ￥490+税</li>
+                <li>キャラメルマキアート  ￥490+税</li>
+                <li>バナナスムージー  ￥490+税</li>
+                <li>レモンスカッシュ  ￥590+税</li>
+               </ul>
+            </div>   
+          </div>
+        </section>
+    </main>
+    <aside>
+      <section id="info" class="info">
+      <h2>Information</h2>
+      <nav>「美味しいBlackCoffeeの淹れ方講座」発売しました！！</nav>
+      <figure>
+        <img src="images/コーヒーアイコン.png" alt="">
+      </figure>
+        <button>購入する</button> 
+      </section>   
+<!--   /////////ここからstoreinfo/////////             -->                
+      <section class="storeinfo">   
+        <div class="map">
+          <div class="map1">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2292.177272291592!2d139.0556631022956!3d37.91648075232997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4c98d9e415209%3A0x20fb3d0fdf75a56e!2z44CSOTUwLTAwODgg5paw5r2f55yM5paw5r2f5biC5Lit5aSu5Yy65LiH5Luj77yS5LiB55uu77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1740615456760!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="map2">
+            <h3>store info</h3>
+             〒950-0088<br>
+             新潟県新潟市中央区万代２丁目１−１<br>
+             営業時間:10:00-20:00 <br>
+             定休日:水曜日
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form action="">
+            <div>
+                <label for="">お名前</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">メールアドレス</label>
+                <input type="email">
+            </div>
+            <div>
+                <label for="">日付</label>
+                <input type="date">
+            </div>
+            <div>
+                <label for="">内容</label>
+                <textarea name="" id=""></textarea>
+            </div>
+            <input type="submit" value="送信する">
+        </form>
+       </section> 
+    </aside>
+    <footer>
+      <small>©BlueCoffee.com</small>
+      <div class="sns">
+        <a href=""></a>
+      </div>  
+    </footer>
+      <!-- jquery & iScroll -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+<!-- drawer.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
