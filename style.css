@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+}   
+.container {
+    width: 100vw;
+  }
+a{
+    text-decoration: none;
+} 
+.botton{
+    color: antiquewhite;
+}
+header{
+    background-color: #151c4d;
+    color: #eff0f0;
+    height: 200px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+header h1{
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 600;
+    font-size: 60px;
+    font-style: normal;
+    padding-top: 40px;
+}  
+@media screen and (max-width:768px){
+    header h1{
+        font-family: "Cinzel Decorative", serif;
+        font-weight: 600;
+        font-size: 35px;
+        font-style: normal;
+        padding-top: 100px;
+      }  
+}
+body{
+    background-color: #eff0f0;
+    font-family: serif;
+    margin: 20px;
+    text-align: center;
+}
+main ul li{
+    list-style: none;
+}
+.about{
+    padding: 100px;
+    line-height:40px;
+}
+@media screen and (max-width:768px){
+   .about{
+    padding: 40px;
+    line-height:40px;
+   }
+}
+.menu{
+    background-color: #151c4d;
+    color: #eff0f0;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    line-height: 35px;
+}
+.menu img{
+    width: 300px;
+    height: 300px;
+}
+main .items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.fv img{
+    width: 100%;
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+@media screen and (max-width:768px){
+    h2{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+}    
+aside{
+    padding: 40px;
+}
+aside img{
+    width: 100px;
+    padding: 20px;
+}
+aside button{
+    background-color: #151c4d;
+    color: #eff0f0;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.storeinfo{
+    background-color: #151c4d;
+    color: #eff0f0;
+    padding: 60px;
+}
+.map{
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+.map1{
+    position: relative;
+    width: 700px;
+    padding-top: 56.25%;
+    height: 0; 
+}
+.map1 iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.map2{
+    line-height: 50px;
+}
+@media screen and (max-width:768px){
+    .map2{
+        line-height: 30px;
+    }
+}    
+.contact{
+    padding: 40px;
+}
+.contact form{
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.contact label{
+    display: block;
+}
+.contact input{
+    display: block;
+}
+.contact input{
+    width: 100%;
+    padding: 10px;
+    border: 3px solid black;
+    box-sizing: border-box;
+
+}
+.contact textarea{
+    width: 100%;
+    padding: 10px;
+    border: 3px solid black;
+    height: 200px;
+    box-sizing: border-box;
+}    
+input[type="submit"]{
+    background-color: #151c4d;
+    color: #eff0f0;
+    border-radius: 10px;
+}
+footer{
+    background-color: #151c4d;
+    color: #eff0f0;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+}
+/*ハンバーガーメニュー*/
+.drawer-hamburger{
+    display: none;
+}
+.drawer-menu{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration-line: none;
+    padding: 50px;
+}
+.drawer-menu-item{
+    font-size: 20px;
+    color: #eff0f0;
+    text-transform: capitalize;
+} 
+.drawer-menu-item:hover{
+    color: antiquewhite;
+}
+@media screen and (max-width:768px){
+    .drawer-hamburger{
+        display: block;
+        position: absolute;
+        top: 180px;
+    }     
+    .drawer-menu {
+        flex-direction: column;
+        align-items: center;
+        background-color: #151c4d;
+        position: absolute;
+        text-decoration: none;
+        width: 100%;
+    }
+    .drawer-hamburger-icon{
+        background-color: gold;
+    }
+    .drawer-hamburger-icon::before{
+        background-color: gold;
+    }
+    .drawer-hamburger-icon::after{
+        background-color: gold;
+    }
+}
