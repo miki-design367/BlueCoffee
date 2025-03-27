@@ -1,3 +1,5 @@
-$(document).ready(function() {  
-  $('.drawer').drawer();
+$(document).ready(function() {
+  $('.drawer-toggle').on('click', function() {
+    console.log('ハンバーガーメニューがクリックされました！');
   });
+});
